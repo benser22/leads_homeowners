@@ -1,0 +1,19 @@
+{
+  "section-header": {},
+  "section-one": {},
+  "section-two": {},
+  "section-three": {},
+  "section-four": {},
+  "section-five": {},
+  "section-six": {},
+  "section-seven": {},
+  "section-footer": {},
+  "logo": {
+    "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467565/leads_landing/m0kujebahjuea1am3aab.png",
+    "alt": "logo with text"
+  },
+  "logo-withtext": {
+    "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467608/leads_landing/wkdgssg99qkd15spyrec.svg",
+    "alt": "logo with text"
+  }
+}
