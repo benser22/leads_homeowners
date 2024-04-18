@@ -15,11 +15,13 @@ const Navbar = () => {
    `}
     >
       <div>
-        <img
-          src={data["logo-withtext"].url}
-          alt={data["logo-withtext"].alt}
-          className="h-[32px]"
-        ></img>
+        <a href="/">
+          <img
+            src={data["logo-withtext"].url}
+            alt={data["logo-withtext"].alt}
+            className="h-[32px] cursor-pointer"
+          ></img>
+        </a>
       </div>
       <button
         className="text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden"
