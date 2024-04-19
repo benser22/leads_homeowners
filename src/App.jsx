@@ -8,9 +8,7 @@ function App() {
     <main>
       <Navbar />
       <Hero />
-      <Layout>
-        <OneSection />
-      </Layout>
+      <OneSection />
     </main>
   );
 }

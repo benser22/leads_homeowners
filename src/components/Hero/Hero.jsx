@@ -4,15 +4,15 @@ function Hero() {
   return (
     <section id="home">
       <div
-        className="flex w-full h-[90%] max-w-screen sm:h-[70vw] md:[75vw] lg:h-[45vw] mt-[10vh] py-12 sm:pt-16 sm:mt-[80px]"
+        className="flex w-[full] h-[90%] max-w-screen sm:h-[70vw] md:[75vw] lg:h-[45vw] mt-[10vh] py-12 sm:pt-16 sm:mt-[80px]"
         style={{
           backgroundImage: `url(${data["section-one"].bg})`,
           backgroundSize: "cover",
-          width: "100vw",
+          width: "100%",
         }}
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center px-4">
-          <div className="hidden md:flex ml-14 w-3/4 max-w-4/5 lg:ml-40 text-5xl text-white font-bold">
+          <div className="hidden md:flex ml-14 w-3/4 max-w-4/5 lg:ml-40 text-5xl text-white font-bold leading-[3.2rem]">
             {data["section-one"].title}
           </div>
           <form
