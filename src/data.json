@@ -34,7 +34,18 @@
     }
   },
 
-  "section-one": {},
+  "section-one": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713480320/leads_landing/dxam5bhvmhp73mkdayki.jpg",
+    "title": "Consultation, Design, & Marketing",
+    "form": {
+      "title-form": "Get a Free Consultation",
+      "full-name": "Full Name",
+      "email": "Enter Email Address",
+      "number": "Mobile Number",
+      "city": "Area, City",
+      "button": "Get Quick Quote"
+    }
+  },
   "section-two": {},
   "section-three": {},
   "section-four": {},

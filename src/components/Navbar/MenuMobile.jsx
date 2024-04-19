@@ -6,8 +6,9 @@ const MenuMobile = ({ isOpen, onClick }) => {
     <div
       className={`${
         isOpen ? "flex fadeIn" : "hidden"
-      } text-blue-custom bg-white w-full h-screen fixed inset-0 md:hidden`}
+      } text-blue-custom w-full h-screen fixed inset-0 md:hidden`}
       onClick={onClick}
+      style={{ background: "rgba(0,0,0,0.3)" }}
     >
       <ul
         className={`fixed left-0 top-0 px-4 py-5 h-screen w-[250px] flex flex-col gap-4 items-start text-blue-custom bg-white shadow-md shadow-black/10`}
@@ -25,10 +26,12 @@ const MenuMobile = ({ isOpen, onClick }) => {
             <Link
               to={item.href}
               key={index}
-              className="flex items-center gap-4 hover:text-light-blue-custom"
+              className="flex items-center gap-4 hover:text-light-blue-custom cursor-pointer"
               smooth={true}
               duration={700}
+              spy={false}
               onClick={onClick}
+              offset={-80}
             >
               <img
                 src={item.icon}
@@ -41,10 +44,12 @@ const MenuMobile = ({ isOpen, onClick }) => {
           <Link
             to={data["section-header"].button.href}
             key={data["section-header"].button.id}
-            className="flex items-center gap-4 hover:text-light-blue-custom"
+            className="flex items-center gap-4 hover:text-light-blue-custom cursor-pointer"
             smooth={true}
             duration={700}
+            spy={false}
             onClick={onClick}
+            offset={-80}
           >
             <img
               src={data["section-header"].button.icon}
