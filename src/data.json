@@ -15,19 +15,25 @@
       },
       {
         "id": 3,
+        "text": "WHY US?",
+        "href": "whyus",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713520650/leads_landing/iconos/ookhvkhzbym4v2wn8ky8.png"
+      },
+      {
+        "id": 4,
         "text": "ABOUT PROJECTS",
         "href": "about_projects",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/iislmaaedybxxtqxe2h5.png"
       },
       {
-        "id": 4,
+        "id": 5,
         "text": "TESTIMONIALS",
         "href": "testimonials",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png"
       }
     ],
     "button": {
-      "id": 5,
+      "id": 6,
       "text": "CONTACT",
       "href": "contact",
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png"

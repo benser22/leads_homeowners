@@ -30,7 +30,6 @@ const MenuMobile = ({ isOpen, onClick }) => {
               smooth={true}
               duration={700}
               spy={false}
-              onClick={onClick}
               offset={-80}
             >
               <img
@@ -48,7 +47,6 @@ const MenuMobile = ({ isOpen, onClick }) => {
             smooth={true}
             duration={700}
             spy={false}
-            onClick={onClick}
             offset={-80}
           >
             <img

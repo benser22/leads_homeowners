@@ -7,13 +7,9 @@ function App() {
   return (
     <main>
       <Navbar />
-      <section id="home">
-        <Hero />
-      </section>
+      <Hero />
       <Layout>
-        <section id="services">
-          <OneSection />
-        </section>
+        <OneSection />
       </Layout>
     </main>
   );
