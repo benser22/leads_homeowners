@@ -60,7 +60,24 @@
     "circle2": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/lmfjvclqf1nfkgdw52ch.png",
     "circle3": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/k3wxqu7xsc4hnuaa38yc.png"
   },
-  "section-three": {},
+  "section-three": {
+    "title": "Why Choose Us?",
+    "Card1": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/zbw9m6bycsxqdfzee57l.png",
+      "title": "Potential ROI",
+      "paragraph": "Whether you are looking to buy a fixer-upper or renovate your current home for sale, we will walk you through potential returns for projects."
+    },
+    "Card2": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/u3vsxfushckcz7ag7x6r.png",
+      "title": "Design",
+      "paragraph": "Our background in interior design makes the perfect guide through your design options and coordinating contractors to complete the home upgrade."
+    },
+    "Card3": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/xnw79s4p5mhhiyl7sdz2.png",
+      "title": "Marketing",
+      "paragraph": "Staging consultation, professional photos and a sophisticated digital marketing plan accompany every listing to reach today’s buyers."
+    }
+  },
   "section-four": {},
   "section-five": {},
   "section-six": {},
