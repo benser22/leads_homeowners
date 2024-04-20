@@ -34,7 +34,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
             >
               <img
                 src={item.icon}
-                alt={item.text}
+                alt={item.alt}
                 className="w-[26px] h-[26px]"
               />
               <p className="font-bold">{item.text}</p>

@@ -14,7 +14,7 @@ function OneSection() {
       >
         <Layout>
           <section id="services">
-            <div className="grid grid-cols-3 h-[110vw] sm:h-[120vw] mini:mb-64 phone:mb-48 sm:-mb-16 md:mb-32 md:h-[30vw] md:max-h-[50vw]">
+            <div className="grid grid-cols-3 h-[110vw] sm:h-[120vw] mb-[50rem] mini:mb-[30rem] small:mb-[24rem] medium:mb-[18rem] standard:mb-52 sm:-mb-16 md:mb-32 md:h-[30vw] md:max-h-[50vw]">
               <div className="flex flex-col justify-start md:h-full w-[80%] col-span-3 md:col-span-1 mx-auto mt-[8vw] md:mt-[8vw] lg:mt-[12vw] md:mx-0 md:ml-36 lg:ml-24 2xl:ml-12">
                 <h2 className="sm:text-xl lg:text-2xl 2xl:text-3xl text-light-blue-custom font-semibold sm:mb-4">
                   {data["section-two"].title}
@@ -26,18 +26,18 @@ function OneSection() {
               <div className="flex justify-center h-full col-span-3 md:col-span-2 md:pt-20 md:absolute mt-10 sm:-mt-20 md:mt-0 md:right-0 md:pr-12 xl:mr-32">
                 <img
                   src={data["section-two"].circle1}
-                  alt="image"
+                  alt={data["section-two"].alt1}
                   className="h-[45vw] md:h-[25vw]"
                 />
                 <div className="flex flex-col -mt-8">
                   <img
                     src={data["section-two"].circle2}
-                    alt="image"
+                    alt={data["section-two"].alt2}
                     className="h-[35vw] md:h-[15vw]"
                   />
                   <img
                     src={data["section-two"].circle3}
-                    alt="image"
+                    alt={data["section-two"].alt3}
                     className="h-[35vw] md:h-[15vw]"
                   />
                 </div>
@@ -65,6 +65,7 @@ function OneSection() {
                       <img
                         className="mx-auto"
                         src={data["section-three"].Card1.icon}
+                        alt={data["section-three"].Card1["icon-alt"]}
                       />
                     </div>
                     <p className="text-light-blue-custom text-lg font-semibold mt-2">
@@ -85,9 +86,15 @@ function OneSection() {
                       <img
                         className="mx-auto"
                         src={data["section-three"].Card2.icon}
+                        alt={data["section-three"].Card2["icon-alt"]}
                       />
                     </div>
-                    <p>Titulo 2</p>
+                    <p className="text-light-blue-custom text-lg font-semibold mt-2">
+                      {data["section-three"].Card2.title}
+                    </p>
+                    <p className="text-gray-custom text-md mt-4 text-center mx-auto px-4">
+                      {data["section-three"].Card2.paragraph}
+                    </p>
                   </div>
                   <div className="w-full">
                     <div
@@ -100,9 +107,15 @@ function OneSection() {
                       <img
                         className="mx-auto"
                         src={data["section-three"].Card3.icon}
+                        alt={data["section-three"].Card3["icon-alt"]}
                       />
                     </div>
-                    <p>Titulo 3</p>
+                    <p className="text-light-blue-custom text-lg font-semibold mt-2">
+                      {data["section-three"].Card3.title}
+                    </p>
+                    <p className="text-gray-custom text-md mt-4 text-center mx-auto px-4">
+                      {data["section-three"].Card3.paragraph}
+                    </p>
                   </div>
                 </div>
               </div>

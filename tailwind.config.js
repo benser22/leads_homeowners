@@ -13,7 +13,9 @@ export default {
       },
       screens: {
         mini: "100px",
-        phone: "300px",
+        small: "250px",
+        medium: "350px",
+        standard: "400px",
       },
     },
   },

@@ -5,43 +5,50 @@
         "id": 1,
         "text": "HOME",
         "href": "home",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ntpuucvtl2qrm9ttjdpa.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ntpuucvtl2qrm9ttjdpa.png",
+        "alt": "icon image home"
       },
       {
         "id": 2,
         "text": "SERVICES",
         "href": "services",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ea7lwh4ckb4b1atgl1tx.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ea7lwh4ckb4b1atgl1tx.png",
+        "alt": "icon image services"
       },
       {
         "id": 3,
         "text": "WHY US?",
         "href": "whyus",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713520650/leads_landing/iconos/ookhvkhzbym4v2wn8ky8.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713520650/leads_landing/iconos/ookhvkhzbym4v2wn8ky8.png",
+        "alt": "icon image why"
       },
       {
         "id": 4,
         "text": "ABOUT PROJECTS",
         "href": "about_projects",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/iislmaaedybxxtqxe2h5.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/iislmaaedybxxtqxe2h5.png",
+        "alt": "icon image about"
       },
       {
         "id": 5,
         "text": "TESTIMONIALS",
         "href": "testimonials",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png",
+        "alt": "icon image testimonials"
       }
     ],
     "button": {
       "id": 6,
       "text": "CONTACT",
       "href": "contact",
-      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png"
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png",
+      "alt": "icon image contact"
     }
   },
 
   "section-one": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713480320/leads_landing/dxam5bhvmhp73mkdayki.jpg",
+    "bg-alt": "background image",
     "title": "Consultation, Design, & Marketing",
     "form": {
       "title-form": "Get a Free Consultation",
@@ -56,24 +63,31 @@
     "title": "Not Your Average Realtor",
     "paragraph": "Real Trust has an eye for seeing a property’s potential, coordinating design, and effectively marketing to get homeowners top dollar on their sales.",
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713584404/leads_landing/bg/dm64ei7efpc1izayi13g.png",
+    "bg-alt": "background image",
     "circle1": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525436/leads_landing/two/vsf1uqn3cldputdv0ul5.png",
+    "alt1": "circle1 image",
     "circle2": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/lmfjvclqf1nfkgdw52ch.png",
-    "circle3": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/k3wxqu7xsc4hnuaa38yc.png"
+    "alt2": "circle2 image",
+    "circle3": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/k3wxqu7xsc4hnuaa38yc.png",
+    "alt3": "circle3 image"
   },
   "section-three": {
     "title": "Why Choose Us?",
     "Card1": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/zbw9m6bycsxqdfzee57l.png",
+      "icon-alt": "icon image card1",
       "title": "Potential ROI",
       "paragraph": "Whether you are looking to buy a fixer-upper or renovate your current home for sale, we will walk you through potential returns for projects."
     },
     "Card2": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/u3vsxfushckcz7ag7x6r.png",
+      "icon-alt": "icon image card2",
       "title": "Design",
       "paragraph": "Our background in interior design makes the perfect guide through your design options and coordinating contractors to complete the home upgrade."
     },
     "Card3": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/xnw79s4p5mhhiyl7sdz2.png",
+      "icon-alt": "icon image card3",
       "title": "Marketing",
       "paragraph": "Staging consultation, professional photos and a sophisticated digital marketing plan accompany every listing to reach today’s buyers."
     }
