@@ -12,7 +12,7 @@
         "id": 2,
         "text": "SERVICES",
         "href": "services",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ea7lwh4ckb4b1atgl1tx.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/bg3l3q91gnbgibs4ogf9.png",
         "alt": "icon image services"
       },
       {
@@ -24,13 +24,20 @@
       },
       {
         "id": 4,
-        "text": "ABOUT PROJECTS",
-        "href": "about_projects",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/iislmaaedybxxtqxe2h5.png",
+        "text": "ABOUT US",
+        "href": "about",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/fi9cco4xiqpmsylwznrj.png",
         "alt": "icon image about"
       },
       {
         "id": 5,
+        "text": "PROJECTS",
+        "href": "projects",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/kypy4ejuotpkwy0n8l84.png",
+        "alt": "icon image projects"
+      },
+      {
+        "id": 6,
         "text": "TESTIMONIALS",
         "href": "testimonials",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png",
@@ -38,7 +45,7 @@
       }
     ],
     "button": {
-      "id": 6,
+      "id": 7,
       "text": "CONTACT",
       "href": "contact",
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png",
@@ -92,7 +99,23 @@
       "paragraph": "Staging consultation, professional photos and a sophisticated digital marketing plan accompany every listing to reach today’s buyers."
     }
   },
-  "section-four": {},
+  "section-four": {
+    "photo1": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598510/leads_landing/about/v5vxpbke4ztp3efkzzqd.png",
+      "alt": "photo1 image"
+    },
+    "photo2": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598525/leads_landing/about/iwrt2z7k4hzxcmswn0i1.png",
+      "alt": "photo2 image"
+    },
+    "photo3": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598509/leads_landing/about/llo8n2r9qdocntaysjcn.png",
+      "alt": "photo3 image"
+    },
+    "title": "About Us",
+    "paragraph": "Fifteen years of experience in real estate, excellent customer service and a commitment to work hard, listen and follow through. We provide quality service to build relationships with clients and, more importantly, maintain those relationships by communicating effectively.",
+    "button": "LEARN MORE"
+  },
   "section-five": {},
   "section-six": {},
   "section-seven": {},

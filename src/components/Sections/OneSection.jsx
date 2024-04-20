@@ -51,7 +51,7 @@ function OneSection() {
                   <p className="text-light-blue-custom">
                     {data["section-three"].title}
                   </p>
-                  <hr className="bg-light-blue-custom mt-6 h-2 lg:h-3 w-1/3 mx-auto rounded-xl mb-4"></hr>
+                  <hr className="bg-light-blue-custom mt-6 h-2 lg:h-3 w-28 mx-auto rounded-xl mb-4"></hr>
                 </div>
                 <div className="grid sm:grid-cols-3 gap-8 px-4">
                   <div className="w-full">
