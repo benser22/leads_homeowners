@@ -60,7 +60,7 @@ function LastSection() {
           </div>
         </div>
       </div>
-      <div className="flex bg-light-blue-custom h-[200px] sm:h-[150px] text-xl sm:text-xl lg:text-base max-w-[100vw] px-4 justify-between items-center relative">
+      <div className="xl:px-[8vw] flex bg-light-blue-custom h-[200px] sm:h-[150px] text-xl sm:text-xl lg:text-base 2xl:text-xl max-w-[100vw] px-4 justify-between items-center relative">
         <div className="hidden lg:flex items-center w-1/2 gap-4 mr-auto ml-4">
           {links.map((item, index) => (
             <Link
@@ -73,7 +73,7 @@ function LastSection() {
               className="cursor-pointer"
             >
               <p
-                className="text-white hover:text-blue-custom text-md sm:text-[12px] lg:text-[14px] w-max"
+                className="text-white hover:text-blue-custom text-md sm:text-[12px] lg:text-[14px] 2xl:text-xl w-max"
                 key={item.id}
               >
                 {item.text}

@@ -5,6 +5,7 @@ import AboutSection from "./components/Sections/AboutSection";
 import OurProjects from "./components/Sections/OurProjects";
 import Testimonials from "./components/Sections/Testimonials";
 import LastSection from "./components/Sections/LastSection";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OurProjects />
       <Testimonials />
       <LastSection />
+      <Footer />
     </main>
   );
 }

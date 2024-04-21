@@ -210,6 +210,10 @@
   },
   "section-footer": {
     "copy": "All Rights Reserved 2024",
+    "logo": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713739729/leads_landing/ye5xriyovdbrpeeew1oa.png",
+      "alt": "logo with text"
+    },
     "twitter-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zhoeulxei08xlf689f8r.png",
     "instagram-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zudybrsi9d5kiy9je140.png",
     "facebook-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/je6lekhnsvmsi66fjkiw.png",
