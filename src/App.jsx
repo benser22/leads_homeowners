@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import OneSection from "./components/Sections/OneSection";
 import AboutSection from "./components/Sections/AboutSection";
 import OurProjects from "./components/Sections/OurProjects";
+import Testimonials from "./components/Sections/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <OneSection />
       <AboutSection />
       <OurProjects />
+      <Testimonials />
     </main>
   );
 }

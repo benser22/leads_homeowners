@@ -116,8 +116,87 @@
     "paragraph": "Fifteen years of experience in real estate, excellent customer service and a commitment to work hard, listen and follow through. We provide quality service to build relationships with clients and, more importantly, maintain those relationships by communicating effectively.",
     "button": "LEARN MORE"
   },
-  "section-five": {},
-  "section-six": {},
+  "section-five": {
+    "title": "Our Projects",
+    "paragraph": "We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.",
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zz6rilszrrl8aliibblo.png",
+        "alt": "photo 1 image",
+        "title": "Consultation",
+        "subtitle": "Project Name, Location",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zidslm9xycsthmj0xmmt.png",
+        "alt": "photo 2 image",
+        "title": "Design",
+        "subtitle": "Service Description",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/a1d1h1nvkniefv1psrav.png",
+        "alt": "photo 3 image",
+        "title": "Marketing & Design",
+        "subtitle": "Location: ABC",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/tfaeqjyrhoab06ooyipq.png",
+        "alt": "photo 4 image",
+        "title": "Consultation & Marketing",
+        "subtitle": "Location: XYZ",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/iw6jxwumo1ljfzl2ucwr.png",
+        "alt": "photo 5 image",
+        "title": "New Project",
+        "subtitle": "Location: TBD",
+        "button": "READ MORE"
+      }
+    ]
+  },
+  "section-six": {
+    "title": "Happy Clients",
+    "testimonials": [
+      {
+        "id": "01",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Rowhan Smith",
+        "rol": "CEO, Foreclosure"
+      },
+      {
+        "id": "02",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/bsjav39ghxqierhtocb0.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Shipra Kayak",
+        "rol": "Brand Designer"
+      },
+      {
+        "id": "03",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/f7hoqg2unckgllwv25p1.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "John Lepore",
+        "rol": "CEO, Foreclosure"
+      },
+      {
+        "id": "04",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Marry Freeman",
+        "rol": "Marketing Manager at Mixit"
+      },
+      {
+        "id": "05",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/adizvfuvffviqqpcxj8o.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Lucy",
+        "rol": "Sales Rep at Alibaba"
+      }
+    ]
+  },
   "section-seven": {},
   "section-footer": {},
   "logo": {

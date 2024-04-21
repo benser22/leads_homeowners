@@ -4,7 +4,6 @@ import Layout from "../ui/Layout";
 function AboutSection() {
   return (
     <div
-      className=""
       style={{
         backgroundImage: `url(${data["section-two"].bg})`,
         backgroundSize: "cover",
