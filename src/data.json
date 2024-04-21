@@ -197,8 +197,25 @@
       }
     ]
   },
-  "section-seven": {},
-  "section-footer": {},
+  "section-seven": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713730799/leads_landing/hi3dx7zmeef8bzadz1q5.png",
+    "title": "Learn more about our listing process, as well as our additional staging and design work.",
+    "button": "LEARN MORE",
+    "suscribe": {
+      "text": "Subscribe Us",
+      "placeholder": "Enter Email Address",
+      "button": "Subscribe",
+      "error": "Please enter a valid email"
+    }
+  },
+  "section-footer": {
+    "copy": "All Rights Reserved 2024",
+    "twitter-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zhoeulxei08xlf689f8r.png",
+    "instagram-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zudybrsi9d5kiy9je140.png",
+    "facebook-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/je6lekhnsvmsi66fjkiw.png",
+    "linkedin-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/qryipsnajhnxp353kwsr.png",
+    "social-media-alt": "social media image"
+  },
   "logo": {
     "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467565/leads_landing/m0kujebahjuea1am3aab.png",
     "alt": "logo with text"
