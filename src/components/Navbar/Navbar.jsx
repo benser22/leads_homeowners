@@ -15,12 +15,12 @@ const Navbar = () => {
           <img
             src={data["logo-withtext"].url}
             alt={data["logo-withtext"].alt}
-            className="sm:hidden lg:flex h-[32px] cursor-pointer"
+            className="sm:hidden xl:flex h-[32px] cursor-pointer"
           ></img>
           <img
             src={data.logo.url}
             alt={data.logo.alt}
-            className="absolute top-6 left-6 hidden md:flex lg:hidden w-[32px] h-[32px] cursor-pointer"
+            className="hidden sm:flex md:hidden custom:flex xl:hidden w-[32px] h-[32px] cursor-pointer"
           ></img>
         </a>
         <div className="hidden sm:flex items-center justify-between sm:space-x-6 md:space-x-12 ">
@@ -42,7 +42,7 @@ const Navbar = () => {
               </p>
             </Link>
           ))}
-          <button className="orange-button">
+          <button className="text-md sm:text-[12px] lg:text-[16px] w-max hidden md:flex lg:bg-[#f46d21] lg:text-white lg:py-[0.375rem] lg:px-[2.25rem] lg:rounded-md  cursor-pointer">
             {data["section-header"].button.text}
           </button>
         </div>

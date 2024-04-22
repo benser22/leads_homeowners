@@ -17,6 +17,7 @@ export default {
         small: "250px",
         medium: "350px",
         standard: "400px",
+        custom: "860px",
       },
     },
   },

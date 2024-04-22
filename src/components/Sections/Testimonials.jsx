@@ -47,7 +47,7 @@ const Testimonials = () => {
   return (
     <Layout>
       <div
-        className="px-4 py-16"
+        className="px-4 pt-8 pb-16"
         style={{
           backgroundImage: `url(${data["section-two"].bg})`,
           backgroundSize: "cover",

@@ -5,7 +5,7 @@ function AboutSection() {
   return (
     <div
       style={{
-        backgroundImage: `url(${data["section-two"].bg})`,
+        backgroundImage: `url(${data["section-three"].bg})`,
         backgroundSize: "cover",
         width: "100%",
       }}
