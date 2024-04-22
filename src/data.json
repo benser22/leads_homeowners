@@ -5,42 +5,42 @@
         "id": 1,
         "text": "HOME",
         "href": "home",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ntpuucvtl2qrm9ttjdpa.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/lmoaahy64aukkhs7wzjo.png",
         "alt": "icon image home"
       },
       {
         "id": 2,
         "text": "SERVICES",
         "href": "services",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/bg3l3q91gnbgibs4ogf9.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/rp2jfmrods6bcwweqxja.png",
         "alt": "icon image services"
       },
       {
         "id": 3,
         "text": "WHY US?",
         "href": "whyus",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713520650/leads_landing/iconos/ookhvkhzbym4v2wn8ky8.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/d0kzeuaomrzyu0lh1li4.png",
         "alt": "icon image why"
       },
       {
         "id": 4,
         "text": "ABOUT US",
         "href": "about",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/fi9cco4xiqpmsylwznrj.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/ahau1yjehwvmwd73hzqc.png",
         "alt": "icon image about"
       },
       {
         "id": 5,
         "text": "PROJECTS",
         "href": "projects",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/kypy4ejuotpkwy0n8l84.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/vtlcz3bmlrkiimsnvp4q.png",
         "alt": "icon image projects"
       },
       {
         "id": 6,
         "text": "TESTIMONIALS",
         "href": "testimonials",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/xcpntyozaprkzea4hlyn.png",
         "alt": "icon image testimonials"
       }
     ],
@@ -48,11 +48,10 @@
       "id": 7,
       "text": "CONTACT",
       "href": "contact",
-      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png",
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/mffequafivmj8oywl0kw.png",
       "alt": "icon image contact"
     }
   },
-
   "section-one": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713480320/leads_landing/dxam5bhvmhp73mkdayki.jpg",
     "bg-alt": "background image",
