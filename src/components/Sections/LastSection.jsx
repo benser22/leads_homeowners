@@ -103,11 +103,16 @@ function LastSection() {
               {data["section-seven"].suscribe.button}
             </button>
           </div>
-          <div className="flex relative ml-10 md:ml-32">
+          <div className="flex relative mx-auto w-full">
             {emailError && (
               <p
-                style={{ textShadow: "1px 1px 3px black" }}
-                className="absolute mt-2 text-orange-custom text-sm"
+                style={{
+                  textShadow: "0.5px 0.5px 1px rgba(0, 0, 0, 0.5)",
+                  left: 0,
+                  right: 0,
+                  margin: "auto",
+                }}
+                className="absolute pt-2 text-orange-custom text-sm"
               >
                 {emailError}
               </p>
