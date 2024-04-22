@@ -33,6 +33,10 @@ button:active {
   border-radius: 0.375rem;
   cursor: pointer;
 }
+.transparent-button {
+  background-color: transparent;
+  cursor: pointer;
+}
 
 .input-custom {
   color: white;

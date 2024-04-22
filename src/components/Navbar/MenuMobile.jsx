@@ -30,12 +30,11 @@ const MenuMobile = ({ isOpen, onClick }) => {
               smooth={true}
               duration={700}
               spy={false}
-              onClick={onClick}
               offset={-80}
             >
               <img
                 src={item.icon}
-                alt={item.text}
+                alt={item.alt}
                 className="w-[26px] h-[26px]"
               />
               <p className="font-bold">{item.text}</p>
@@ -48,7 +47,6 @@ const MenuMobile = ({ isOpen, onClick }) => {
             smooth={true}
             duration={700}
             spy={false}
-            onClick={onClick}
             offset={-80}
           >
             <img

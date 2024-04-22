@@ -5,37 +5,57 @@
         "id": 1,
         "text": "HOME",
         "href": "home",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ntpuucvtl2qrm9ttjdpa.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ntpuucvtl2qrm9ttjdpa.png",
+        "alt": "icon image home"
       },
       {
         "id": 2,
         "text": "SERVICES",
         "href": "services",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/ea7lwh4ckb4b1atgl1tx.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/bg3l3q91gnbgibs4ogf9.png",
+        "alt": "icon image services"
       },
       {
         "id": 3,
-        "text": "ABOUT PROJECTS",
-        "href": "about_projects",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/iislmaaedybxxtqxe2h5.png"
+        "text": "WHY US?",
+        "href": "whyus",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713520650/leads_landing/iconos/ookhvkhzbym4v2wn8ky8.png",
+        "alt": "icon image why"
       },
       {
         "id": 4,
+        "text": "ABOUT US",
+        "href": "about",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/fi9cco4xiqpmsylwznrj.png",
+        "alt": "icon image about"
+      },
+      {
+        "id": 5,
+        "text": "PROJECTS",
+        "href": "projects",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713597713/leads_landing/iconos/kypy4ejuotpkwy0n8l84.png",
+        "alt": "icon image projects"
+      },
+      {
+        "id": 6,
         "text": "TESTIMONIALS",
         "href": "testimonials",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png"
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/cseuyijr9wxh4q9cscy4.png",
+        "alt": "icon image testimonials"
       }
     ],
     "button": {
-      "id": 5,
+      "id": 7,
       "text": "CONTACT",
       "href": "contact",
-      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png"
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713475390/leads_landing/iconos/phpeo53ginobhmw87ycw.png",
+      "alt": "icon image contact"
     }
   },
 
   "section-one": {
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713480320/leads_landing/dxam5bhvmhp73mkdayki.jpg",
+    "bg-alt": "background image",
     "title": "Consultation, Design, & Marketing",
     "form": {
       "title-form": "Get a Free Consultation",
@@ -46,13 +66,161 @@
       "button": "Get Quick Quote"
     }
   },
-  "section-two": {},
-  "section-three": {},
-  "section-four": {},
-  "section-five": {},
-  "section-six": {},
-  "section-seven": {},
-  "section-footer": {},
+  "section-two": {
+    "title": "Not Your Average Realtor",
+    "paragraph": "Real Trust has an eye for seeing a property’s potential, coordinating design, and effectively marketing to get homeowners top dollar on their sales.",
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713743104/leads_landing/bg/fzev3buo8svhxgl260st.png",
+    "bg-alt": "background image",
+    "circle1": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525436/leads_landing/two/vsf1uqn3cldputdv0ul5.png",
+    "alt1": "circle1 image",
+    "circle2": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/lmfjvclqf1nfkgdw52ch.png",
+    "alt2": "circle2 image",
+    "circle3": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713525435/leads_landing/two/k3wxqu7xsc4hnuaa38yc.png",
+    "alt3": "circle3 image"
+  },
+  "section-three": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713744189/leads_landing/bg/xijthcbdmun7ekcycprj.png",
+    "title": "Why Choose Us?",
+    "Card1": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/zbw9m6bycsxqdfzee57l.png",
+      "icon-alt": "icon image card1",
+      "title": "Potential ROI",
+      "paragraph": "Whether you are looking to buy a fixer-upper or renovate your current home for sale, we will walk you through potential returns for projects."
+    },
+    "Card2": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/u3vsxfushckcz7ag7x6r.png",
+      "icon-alt": "icon image card2",
+      "title": "Design",
+      "paragraph": "Our background in interior design makes the perfect guide through your design options and coordinating contractors to complete the home upgrade."
+    },
+    "Card3": {
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/xnw79s4p5mhhiyl7sdz2.png",
+      "icon-alt": "icon image card3",
+      "title": "Marketing",
+      "paragraph": "Staging consultation, professional photos and a sophisticated digital marketing plan accompany every listing to reach today’s buyers."
+    }
+  },
+  "section-four": {
+    "photo1": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598510/leads_landing/about/v5vxpbke4ztp3efkzzqd.png",
+      "alt": "photo1 image"
+    },
+    "photo2": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598525/leads_landing/about/iwrt2z7k4hzxcmswn0i1.png",
+      "alt": "photo2 image"
+    },
+    "photo3": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713598509/leads_landing/about/llo8n2r9qdocntaysjcn.png",
+      "alt": "photo3 image"
+    },
+    "title": "About Us",
+    "paragraph": "Fifteen years of experience in real estate, excellent customer service and a commitment to work hard, listen and follow through. We provide quality service to build relationships with clients and, more importantly, maintain those relationships by communicating effectively.",
+    "button": "LEARN MORE"
+  },
+  "section-five": {
+    "title": "Our Projects",
+    "paragraph": "We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.",
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zz6rilszrrl8aliibblo.png",
+        "alt": "photo 1 image",
+        "title": "Consultation",
+        "subtitle": "Project Name, Location",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zidslm9xycsthmj0xmmt.png",
+        "alt": "photo 2 image",
+        "title": "Design",
+        "subtitle": "Service Description",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/a1d1h1nvkniefv1psrav.png",
+        "alt": "photo 3 image",
+        "title": "Marketing & Design",
+        "subtitle": "Location: ABC",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/tfaeqjyrhoab06ooyipq.png",
+        "alt": "photo 4 image",
+        "title": "Consultation & Marketing",
+        "subtitle": "Location: XYZ",
+        "button": "READ MORE"
+      },
+      {
+        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/iw6jxwumo1ljfzl2ucwr.png",
+        "alt": "photo 5 image",
+        "title": "New Project",
+        "subtitle": "Location: TBD",
+        "button": "READ MORE"
+      }
+    ]
+  },
+  "section-six": {
+    "title": "Happy Clients",
+    "testimonials": [
+      {
+        "id": "01",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Rowhan Smith",
+        "rol": "CEO, Foreclosure"
+      },
+      {
+        "id": "02",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/bsjav39ghxqierhtocb0.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Shipra Kayak",
+        "rol": "Brand Designer"
+      },
+      {
+        "id": "03",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/f7hoqg2unckgllwv25p1.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "John Lepore",
+        "rol": "CEO, Foreclosure"
+      },
+      {
+        "id": "04",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Marry Freeman",
+        "rol": "Marketing Manager at Mixit"
+      },
+      {
+        "id": "05",
+        "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/adizvfuvffviqqpcxj8o.png",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "name": "Lucy",
+        "rol": "Sales Rep at Alibaba"
+      }
+    ]
+  },
+  "section-seven": {
+    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713730799/leads_landing/hi3dx7zmeef8bzadz1q5.png",
+    "title": "Learn more about our listing process, as well as our additional staging and design work.",
+    "button": "LEARN MORE",
+    "suscribe": {
+      "text": "Subscribe Us",
+      "placeholder": "Enter Email Address",
+      "button": "Subscribe",
+      "error": "Please enter a valid email"
+    }
+  },
+  "section-footer": {
+    "copy": "All Rights Reserved 2024",
+    "logo": {
+      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713739729/leads_landing/ye5xriyovdbrpeeew1oa.png",
+      "alt": "logo with text"
+    },
+    "twitter-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zhoeulxei08xlf689f8r.png",
+    "instagram-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/zudybrsi9d5kiy9je140.png",
+    "facebook-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/je6lekhnsvmsi66fjkiw.png",
+    "linkedin-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713729480/leads_landing/social/qryipsnajhnxp353kwsr.png",
+    "social-media-alt": "social media image"
+  },
   "logo": {
     "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467565/leads_landing/m0kujebahjuea1am3aab.png",
     "alt": "logo with text"

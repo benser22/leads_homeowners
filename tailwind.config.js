@@ -7,9 +7,17 @@ export default {
         "blue-custom": "#192A68",
         "light-blue-custom": "#217BF4",
         "orange-custom": "#F46D21",
+        "gray-custom": "#656464",
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
+      },
+      screens: {
+        mini: "100px",
+        small: "250px",
+        medium: "350px",
+        standard: "400px",
+        custom: "860px",
       },
     },
   },

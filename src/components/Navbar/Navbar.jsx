@@ -8,19 +8,19 @@ const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
   return (
     <header
-      className={`fixed z-[98] top-0 left-0 w-full px-8 sm:px-16 py-2 flex justify-between items-center h-[78px] text-blue-custom bg-white`}
+      className={`fixed z-[98] top-0 left-0 w-full px-8 sm:px-16 py-2 flex justify-between items-center h-[78px] text-blue-custom bg-white shadow-sm`}
     >
       <div className="flex items-center justify-between w-full">
         <a href="/">
           <img
             src={data["logo-withtext"].url}
             alt={data["logo-withtext"].alt}
-            className="sm:hidden lg:flex h-[32px] cursor-pointer"
+            className="sm:hidden xl:flex h-[32px] cursor-pointer"
           ></img>
           <img
             src={data.logo.url}
             alt={data.logo.alt}
-            className="absolute top-6 left-6 hidden md:flex lg:hidden w-[32px] h-[32px] cursor-pointer"
+            className="hidden sm:flex md:hidden custom:flex xl:hidden w-[32px] h-[32px] cursor-pointer"
           ></img>
         </a>
         <div className="hidden sm:flex items-center justify-between sm:space-x-6 md:space-x-12 ">
@@ -34,12 +34,15 @@ const Navbar = () => {
               offset={-80}
               className="hover:text-light-blue-custom cursor-pointer"
             >
-              <p className="text-md w-max" key={item.id}>
+              <p
+                className="text-md sm:text-[12px] lg:text-[16px] w-max"
+                key={item.id}
+              >
                 {item.text}
               </p>
             </Link>
           ))}
-          <button className="orange-button">
+          <button className="text-md sm:text-[12px] lg:text-[16px] w-max hidden md:flex lg:bg-[#f46d21] lg:text-white lg:py-[0.375rem] lg:px-[2.25rem] lg:rounded-md  cursor-pointer">
             {data["section-header"].button.text}
           </button>
         </div>
