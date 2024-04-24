@@ -12,7 +12,7 @@ function AboutSection() {
     >
       <section id="about">
         <Layout>
-          <div className="mt-28 sm:mt-0 px-4 py-8">
+          <div className="mt-28 sm:mt-0 px-4 pb-20">
             <div className="grid mt-16 grid-cols-1 sm:grid-cols-3 items-center h-[350px] py-8 gap-3">
               <img
                 className="hidden sm:block ml-auto mb-auto rounded-sm"
