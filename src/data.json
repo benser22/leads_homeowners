@@ -31,17 +31,17 @@
       },
       {
         "id": 5,
-        "text": "PROJECTS",
-        "href": "projects",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/vtlcz3bmlrkiimsnvp4q.png",
-        "alt": "icon image projects"
-      },
-      {
-        "id": 6,
         "text": "TESTIMONIALS",
         "href": "testimonials",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/xcpntyozaprkzea4hlyn.png",
         "alt": "icon image testimonials"
+      },
+      {
+        "id": 6,
+        "text": "PROJECTS",
+        "href": "projects",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/vtlcz3bmlrkiimsnvp4q.png",
+        "alt": "icon image projects"
       }
     ],
     "button": {
@@ -116,47 +116,6 @@
     "paragraph": "Fifteen years of experience in real estate, excellent customer service and a commitment to work hard, listen and follow through. We provide quality service to build relationships with clients and, more importantly, maintain those relationships by communicating effectively.",
     "button": "LEARN MORE"
   },
-  "section-five": {
-    "title": "Our Projects",
-    "paragraph": "We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.",
-    "photos": [
-      {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zz6rilszrrl8aliibblo.png",
-        "alt": "photo 1 image",
-        "title": "Consultation",
-        "subtitle": "Project Name, Location",
-        "button": "READ MORE"
-      },
-      {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/zidslm9xycsthmj0xmmt.png",
-        "alt": "photo 2 image",
-        "title": "Design",
-        "subtitle": "Service Description",
-        "button": "READ MORE"
-      },
-      {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/a1d1h1nvkniefv1psrav.png",
-        "alt": "photo 3 image",
-        "title": "Marketing & Design",
-        "subtitle": "Location: ABC",
-        "button": "READ MORE"
-      },
-      {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/tfaeqjyrhoab06ooyipq.png",
-        "alt": "photo 4 image",
-        "title": "Consultation & Marketing",
-        "subtitle": "Location: XYZ",
-        "button": "READ MORE"
-      },
-      {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713629614/leads_landing/projects/iw6jxwumo1ljfzl2ucwr.png",
-        "alt": "photo 5 image",
-        "title": "New Project",
-        "subtitle": "Location: TBD",
-        "button": "READ MORE"
-      }
-    ]
-  },
   "section-six": {
     "title": "Happy Clients",
     "testimonials": [
@@ -222,10 +181,52 @@
   },
   "logo": {
     "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467565/leads_landing/m0kujebahjuea1am3aab.png",
-    "alt": "logo with text"
+    "alt": "logo image"
+  },
+  "logo-white": {
+    "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713742710/leads_landing/byr7ym2w12ypqheuxl0b.png",
+    "alt": "logo image"
   },
   "logo-withtext": {
     "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713467608/leads_landing/wkdgssg99qkd15spyrec.svg",
     "alt": "logo with text"
+  },
+  "bolg": {
+    "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713971967/new%20icons/goxgkznab54zmwyrthho.png",
+    "title": "Blog",
+    "text": "Visit our blog!",
+    "url": "https://www.blogger.com/about/?hl=es"
+  },
+  "project": {
+    "title": "Optimize Property Potential",
+    "paragraph": "Our projects empower real estate professionals to unlock the full potential of their properties. From strategic consultation to captivating design and targeted marketing, we provide the tools and expertise to maximize returns on every listing.",
+    "photos": [
+      {
+        "urls": [
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/aiccifyvubzqfppjvh5i.jpg",
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713991552/leads_landing/bg/l4fdeo8gdgf8c4xovb3d.jpg",
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713992659/leads_landing/bg/frewotam8fnuhq4yauft.jpg"
+        ],
+        "alt": "photo 1 image",
+        "title": "Strategic Consultation",
+        "subtitle": "Uncover Property Potential",
+        "description": "Our strategic consultation services involve in-depth analysis and planning to identify the unique selling points of each property, enabling you to make informed decisions and maximize its potential.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      },
+      {
+        "urls": [
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/yminyapju7oet6yyogkx.jpg",
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713988623/leads_landing/bg/xdnvbxqjxa2829tk8u41.jpg",
+          "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713992404/leads_landing/bg/ndqvbupefn4fonadmvtd.jpg"
+        ],
+        "alt": "photo 2 image",
+        "title": "Captivating Design",
+        "subtitle": "Transforming Spaces",
+        "description": "Our captivating design services focus on creating visually stunning interiors and exteriors that enhance the appeal of your property, attracting more potential buyers and maximizing its value.",
+        "button": "READ MORE",
+        "button-back": "READ LESS"
+      }
+    ]
   }
 }
