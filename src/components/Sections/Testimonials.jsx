@@ -68,10 +68,7 @@ const Testimonials = () => {
                     alt={testimonial.name}
                     className="h-16 mx-auto rounded-full -mb-8"
                   />
-                  <div
-                    className="flex flex-col text-left px-2 py-6 rounded-lg mx-2 bg-white"
-                    style={{ boxShadow: '0px 0px 2px 1px rgba(0, 0, 0, 0.08)' }}
-                  >
+                  <div className="flex flex-col text-left px-2 py-6 rounded-lg mx-2 bg-white">
                     <div className="flex gap-1">
                       <span
                         style={{
@@ -87,10 +84,10 @@ const Testimonials = () => {
                       </p>
                     </div>
 
-                    <p className="text-center mt-4 standard:text-left text-light-blue-custom font-semibold text-[14px] truncate">
+                    <p className="text-center mt-4 text-light-blue-custom font-semibold text-[14px] truncate">
                       {testimonial.name}
                     </p>
-                    <p className="text-center standard:text-left text-gray-custom text-[12px] truncate">
+                    <p className="text-center text-gray-custom text-[12px] truncate">
                       {testimonial.rol}
                     </p>
                   </div>
