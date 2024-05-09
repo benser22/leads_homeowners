@@ -11,7 +11,7 @@ function Footer() {
   };
 
   return (
-    <footer className="py-8 px-4 bg-[#20202D] overflow-hidden">
+    <footer className="py-8 px-8 bg-[#20202D] overflow-hidden">
       <Layout>
         <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center justify-between text-[#F6F6F6]">
           <div>
@@ -22,11 +22,11 @@ function Footer() {
               <img
                 src={data['section-footer'].logo.url}
                 alt={data['section-footer'].logo.alt}
-                className="w-1/2 sm:w-[20vw] mx-auto"
+                className="w-1/2 sm:w-[20vw] mx-auto max-w-[200px]"
               />
             </a>
           </div>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <img
               width={32}
               src={data['section-footer']['twitter-icon']}
@@ -55,7 +55,7 @@ function Footer() {
               className="cursor-pointer"
               onClick={handleClick}
             />
-          </div>
+          </div> */}
           <div className="flex items-center">
             <a href={data.bolg.url} target="_blank" className="ml-auto">
               <div

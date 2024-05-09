@@ -38,7 +38,7 @@
       },
       {
         "id": 6,
-        "text": "PROJECTS",
+        "text": "PROJECT",
         "href": "projects",
         "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713749117/icons/vtlcz3bmlrkiimsnvp4q.png",
         "alt": "icon image projects"
@@ -188,11 +188,15 @@
     "icon": "blog.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://www.blogger.com/about/?hl=es"
+    "url": "https://leadharbortech.blog.sistemasvirtuales.net/"
   },
   "project": {
-    "title": "That makes us different",
+    "title": "PROJECT: LeadHarbor Tech",
+    "subtititle1": "Management and Lead Capture System",
+    "subtititle2": "(Technological Solution for Comprehensive Tourism Management)",
     "paragraph": "At LeadHarbor Tech, we stand out for our unique combination of technology experience and deep knowledge of the tourism sector. Our solutions are custom designed for the specific needs of each client, offering an unparalleled competitive advantage in a constantly evolving market.",
+    "image": "projects.webp",
+    "bg": "BGprojects.jpg",
     "photos": [
       {
         "urls": [
