@@ -83,9 +83,7 @@ const Testimonials = () => {
                         "
                       </span>
                       <p className="text-left text-gray-custom text-[12px] mt-4">
-                        {testimonial.paragraph.length > 300
-                          ? `${testimonial.paragraph.substring(0, 300)}...`
-                          : testimonial.paragraph}
+                        {testimonial.paragraph}
                       </p>
                     </div>
 
