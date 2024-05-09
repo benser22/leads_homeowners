@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Layout from "../ui/Layout";
-import data from "../../data.json";
+import React, { useState, useEffect } from 'react';
+import Layout from '../ui/Layout';
+import data from '../../data.json';
 
 function OurProjects() {
   const [showDescription1, setShowDescription1] = useState(false);
@@ -8,9 +8,9 @@ function OurProjects() {
   const [currentImageIndices, setCurrentImageIndices] = useState([0, 0]);
 
   const toggleDescription = (index) => {
-    if (index === "card1") {
+    if (index === 'card1') {
       setShowDescription1(!showDescription1);
-    } else if (index === "card2") {
+    } else if (index === 'card2') {
       setShowDescription2(!showDescription2);
     }
   };
@@ -51,9 +51,9 @@ function OurProjects() {
                 {data.project.paragraph}
               </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 text-center mt-8 gap-8 px-8">
-              {/* Card 1 */}
-              <div className="bg-white shadow-xl rounded-lg overflow-hidden col-span-5 sm:col-span-1 pb-4">
+            {/* <div className="grid grid-cols-1 lg:grid-cols-2 text-center mt-8 gap-8 px-8"> */}
+            {/* Card 1 */}
+            {/* <div className="bg-white shadow-xl rounded-lg overflow-hidden col-span-5 sm:col-span-1 pb-4">
                 <img
                   src={imageUrlsCard1[currentImageIndices[0]]}
                   alt={data.project.photos[0].alt}
@@ -83,10 +83,10 @@ function OurProjects() {
                     </div>
                   )}
                 </div>
-              </div>
+              </div> */}
 
-              {/* Card 2 */}
-              <div className="bg-white shadow-xl rounded-lg overflow-hidden col-span-5 sm:col-span-1 pb-4">
+            {/* Card 2 */}
+            {/* <div className="bg-white shadow-xl rounded-lg overflow-hidden col-span-5 sm:col-span-1 pb-4">
                 <img
                   src={imageUrlsCard2[currentImageIndices[1]]}
                   alt={data.project.photos[1].alt}
@@ -117,7 +117,7 @@ function OurProjects() {
                   )}
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Layout>
       </section>

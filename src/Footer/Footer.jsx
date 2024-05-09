@@ -1,62 +1,57 @@
-import React from "react";
-import data from "../data.json";
-import Layout from "../components/ui/Layout";
+import React from 'react';
+import data from '../data.json';
+import Layout from '../components/ui/Layout';
 
 function Footer() {
   const handleClick = (e) => {
-    e.target.style.filter = "brightness(150%)";
+    e.target.style.filter = 'brightness(150%)';
     setTimeout(() => {
-      e.target.style.filter = "none";
+      e.target.style.filter = 'none';
     }, 50);
   };
 
   return (
-    <footer className="py-8 px-20 bg-[#20202D] overflow-hidden">
+    <footer className="py-8 px-4 bg-[#20202D] overflow-hidden">
       <Layout>
         <div className="flex flex-col gap-6 sm:gap-0 sm:flex-row items-center justify-between text-[#F6F6F6]">
           <div>
-            <p className="text-xs">{data["section-footer"].copy}</p>
+            <p className="text-xs">{data['section-footer'].copy}</p>
           </div>
           <div>
             <a href="#">
               <img
-                src={data["section-footer"].logo.url}
-                alt={data["section-footer"].logo.alt}
-                className="sm:hidden break:block"
-              />
-              <img
-                src={data["logo-white"].url}
-                alt={data["logo-white"].alt}
-                className="hidden sm:block break:hidden w-10"
+                src={data['section-footer'].logo.url}
+                alt={data['section-footer'].logo.alt}
+                className="w-1/2 sm:w-[20vw] mx-auto"
               />
             </a>
           </div>
           <div className="flex items-center gap-2">
             <img
               width={32}
-              src={data["section-footer"]["twitter-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
+              src={data['section-footer']['twitter-icon']}
+              alt={data['section-footer']['social-media-alt']}
               className="cursor-pointer"
               onClick={handleClick}
             />
             <img
               width={32}
-              src={data["section-footer"]["instagram-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
+              src={data['section-footer']['instagram-icon']}
+              alt={data['section-footer']['social-media-alt']}
               className="cursor-pointer"
               onClick={handleClick}
             />
             <img
               width={32}
-              src={data["section-footer"]["facebook-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
+              src={data['section-footer']['facebook-icon']}
+              alt={data['section-footer']['social-media-alt']}
               className="cursor-pointer"
               onClick={handleClick}
             />
             <img
               width={32}
-              src={data["section-footer"]["linkedin-icon"]}
-              alt={data["section-footer"]["social-media-alt"]}
+              src={data['section-footer']['linkedin-icon']}
+              alt={data['section-footer']['social-media-alt']}
               className="cursor-pointer"
               onClick={handleClick}
             />
