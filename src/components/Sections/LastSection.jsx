@@ -1,21 +1,21 @@
-import React, { useState } from "react";
-import data from "../../data.json";
-import Layout from "../ui/Layout";
-import { Link } from "react-scroll";
+import React, { useState } from 'react';
+import data from '../../data.json';
+import Layout from '../ui/Layout';
+import { Link } from 'react-scroll';
 
 function LastSection() {
-  const lastSection = data["section-seven"];
-  const links = data["section-header"].navbar;
-  const [email, setEmail] = useState("");
+  const lastSection = data['section-seven'];
+  const links = data['section-header'].navbar;
+  const [email, setEmail] = useState('');
   const [isValidEmail, setIsValidEmail] = useState(true);
-  const [emailError, setEmailError] = useState("");
+  const [emailError, setEmailError] = useState('');
 
   const handleEmailChange = (e) => {
     const inputValue = e.target.value;
     setEmail(inputValue);
-    if (inputValue.trim() === "") {
+    if (inputValue.trim() === '') {
       setIsValidEmail(true);
-      setEmailError("");
+      setEmailError('');
     } else {
       validateEmail(inputValue);
     }
@@ -25,14 +25,14 @@ function LastSection() {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const isValid = regex.test(input);
     setIsValidEmail(isValid);
-    setEmailError(isValid ? "" : data["section-seven"].suscribe.error);
+    setEmailError(isValid ? '' : data['section-seven'].suscribe.error);
   };
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:${email}`;
+      window.location.href = `mailto:lead_harbor@gmail.com?subject=Suscribe&body=Contact: ${email}`;
     } else {
-      alert(emailError || data["section-seven"].suscribe.error);
+      alert(emailError || data['section-seven'].suscribe.error);
     }
   };
 
@@ -42,20 +42,20 @@ function LastSection() {
         className=""
         style={{
           backgroundImage: `url(${lastSection.bg})`,
-          backgroundSize: "cover",
-          width: "100%",
-          height: "auto",
+          backgroundSize: 'cover',
+          width: '100%',
+          height: 'auto',
         }}
       >
         <div className="flex flex-col text-center justify-end py-20 space-y-10">
-          <div className="w-3/4 sm:w-1/2 mx-auto text-md sm:text-xl xl:text-2xl text-white font-bold">
-            <p style={{ textShadow: "1px 1px 2px black" }}>
-              {data["section-seven"].title}
+          <div className="w-3/4 sm:w-4/5 mx-auto text-md sm:text-xl xl:text-2xl text-white font-bold">
+            <p style={{ textShadow: '1px 1px 2px black' }}>
+              {data['section-seven'].title}
             </p>
           </div>
           <div className="w-full mx-auto">
-            <button className="bg-white px-20 py-2  mx-auto text-light-blue-custom rounded-md">
-              {data["section-seven"].button}
+            <button className="shadow bg-white px-20 py-2  mx-auto text-light-blue-custom rounded-md active:shadow-none">
+              {data['section-seven'].button}
             </button>
           </div>
         </div>
@@ -85,32 +85,32 @@ function LastSection() {
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 items-center text-center">
             <p
               className="text-white text-md hidden md:flex mr-4"
-              style={{ whiteSpace: "nowrap" }}
+              style={{ whiteSpace: 'nowrap' }}
             >
-              {data["section-seven"].suscribe.text}
+              {data['section-seven'].suscribe.text}
             </p>
             <input
               type="email"
               value={email}
               onChange={handleEmailChange}
               className="w-full md:w-1/2 xl:w-full bg-transparent text-white py-2 px-5 border-solid border sm:border-r-0 sm:rounded-r-none border-white placeholder-white rounded-md"
-              placeholder={data["section-seven"].suscribe.placeholder}
+              placeholder={data['section-seven'].suscribe.placeholder}
             />
             <button
               className="text-light-blue-custom bg-white py-2 px-5 border border-white rounded-md sm:rounded-l-none"
               onClick={handleButtonClick}
             >
-              {data["section-seven"].suscribe.button}
+              {data['section-seven'].suscribe.button}
             </button>
           </div>
           <div className="flex relative mx-auto w-full">
             {emailError && (
               <p
                 style={{
-                  textShadow: "0.5px 0.5px 1px rgba(0, 0, 0, 0.5)",
+                  textShadow: '0.5px 0.5px 1px rgba(0, 0, 0, 0.5)',
                   left: 0,
                   right: 0,
-                  margin: "auto",
+                  margin: 'auto',
                 }}
                 className="absolute pt-2 text-orange-custom text-sm"
               >

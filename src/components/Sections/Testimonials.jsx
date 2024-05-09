@@ -1,13 +1,13 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import data from "../../data.json";
-import Layout from "../ui/Layout";
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import data from '../../data.json';
+import Layout from '../ui/Layout';
 
 const Testimonials = () => {
-  const testimonials = data["section-six"].testimonials;
-  const title = data["section-six"].title;
+  const testimonials = data['section-six'].testimonials;
+  const title = data['section-six'].title;
   const settings = {
     dots: false,
     infinite: true,
@@ -50,9 +50,9 @@ const Testimonials = () => {
         <div
           className="px-4 pt-8 pb-8"
           style={{
-            backgroundImage: `url(${data["section-two"].bg})`,
-            backgroundSize: "cover",
-            width: "100%",
+            backgroundImage: `url(${data['section-two'].bg})`,
+            backgroundSize: 'cover',
+            width: '100%',
           }}
         >
           <div className="flex flex-col text-center w-[98%]">
@@ -60,30 +60,32 @@ const Testimonials = () => {
               <p className="text-light-blue-custom mx-auto">{title}</p>
               <hr className="bg-light-blue-custom mt-6 h-2 lg:h-3 w-28 mx-auto rounded-xl mb-4"></hr>
             </div>
-            <Slider {...settings} className="h-[22rem] px-6 w-[95%] mx-auto">
+            <Slider {...settings} className="px-6 w-[95%] mx-auto">
               {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="space-y-2 h-[22rem]">
+                <div key={testimonial.id} className="space-y-2 min-h-[24rem]">
                   <img
                     src={testimonial.photo}
                     alt={testimonial.name}
                     className="h-16 mx-auto rounded-full -mb-8"
                   />
                   <div
-                    className="flex flex-col text-left px-4 py-6 rounded-lg mx-2 bg-white"
-                    style={{ boxShadow: "0px 0px 2px 1px rgba(0, 0, 0, 0.08)" }}
+                    className="flex flex-col text-left px-2 py-6 rounded-lg mx-2 bg-white"
+                    style={{ boxShadow: '0px 0px 2px 1px rgba(0, 0, 0, 0.08)' }}
                   >
                     <div className="flex gap-1">
                       <span
                         style={{
-                          fontFamily: "Catamaran",
-                          fontSize: "3rem",
+                          fontFamily: 'Catamaran',
+                          fontSize: '3rem',
                         }}
                         className="text-gray-custom"
                       >
                         "
                       </span>
                       <p className="text-left text-gray-custom text-[12px] mt-4">
-                        {testimonial.paragraph}"
+                        {testimonial.paragraph.length > 300
+                          ? `${testimonial.paragraph.substring(0, 300)}...`
+                          : testimonial.paragraph}
                       </p>
                     </div>
 
