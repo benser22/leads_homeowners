@@ -40,6 +40,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
               <p className="font-bold">{item.text}</p>
             </Link>
           ))}
+
           <Link
             to={data['section-header'].button.href}
             key={data['section-header'].button.id}
@@ -56,6 +57,18 @@ const MenuMobile = ({ isOpen, onClick }) => {
             />
             <p className="font-bold">{data['section-header'].button.text}</p>
           </Link>
+          <a
+            href={data['section-header'].blog.href}
+            target="_blank"
+            className="flex items-center gap-4 text-md font-bold sm:text-[12px] lg:text-[16px] w-max hover:text-light-blue-custom cursor-pointer"
+          >
+            <img
+              src={data['section-header'].blog.icon}
+              alt={data['section-header'].blog.alt}
+              className="w-[26px] h-[26px]"
+            />
+            {data['section-header'].blog.text}
+          </a>
         </div>
       </ul>
     </div>

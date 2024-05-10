@@ -43,6 +43,13 @@ const Navbar = () => {
             </Link>
           ))}
           <a
+            href={data['section-header'].blog.href}
+            target="_blank"
+            className="text-md sm:text-[12px] lg:text-[16px] w-max hover:text-light-blue-custom cursor-pointer"
+          >
+            {data['section-header'].blog.text}
+          </a>
+          <a
             href="mailto:lead_harbor@gmail.com"
             className="text-md sm:text-[12px] lg:text-[16px] w-max hidden md:flex lg:bg-[#f46d21] lg:text-white lg:py-[0.375rem] lg:px-[2.25rem] lg:rounded-md cursor-pointer"
           >

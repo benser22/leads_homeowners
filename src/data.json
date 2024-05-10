@@ -44,6 +44,13 @@
         "alt": "icon image projects"
       }
     ],
+    "blog": {
+      "id": 11,
+      "text": "BLOG",
+      "href": "https://leadharbortech.blog.sistemasvirtuales.net/",
+      "icon": "bloggray.png",
+      "alt": "icon image blog"
+    },
     "button": {
       "id": 7,
       "text": "CONTACT",
