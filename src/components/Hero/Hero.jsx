@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import data from '../../data.json';
 
 function Hero() {
@@ -20,7 +20,7 @@ function Hero() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { fullName, email, phoneNumber, city } = formData;
-    const mailtoLink = `mailto:leadharbortech@gmail.com?subject=Formulario de contacto&body=Nombre: ${fullName}%0DEmail: ${email}%0DTeléfono: ${phoneNumber}%0DCiudad: ${city}`;
+    const mailtoLink = `mailto:${data.contact}?subject=Formulario de contacto&body=Nombre: ${fullName}%0DEmail: ${email}%0DTeléfono: ${phoneNumber}%0DCiudad: ${city}`;
     window.location.href = mailtoLink;
 
     setFormData({

@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import data from '../../data.json';
-import Layout from '../ui/Layout';
 import { Link } from 'react-scroll';
 
 function LastSection() {

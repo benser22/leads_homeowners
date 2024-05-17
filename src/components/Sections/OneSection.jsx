@@ -16,7 +16,7 @@ function OneSection() {
           <section id="services">
             <div className="grid grid-cols-3 h-[110vw] sm:h-[120vw] mb-[12rem] sm:mb-[0rem] md:mb-[16rem] md:h-[30vw] md:max-h-[50vw]">
               <div className="flex flex-col justify-start md:h-full w-[80%] col-span-3 md:col-span-1 mx-auto mt-[8vw] md:mt-[8vw] lg:mt-[12vw] md:mx-0 md:ml-36 lg:ml-24 2xl:ml-12">
-                <h2 className="sm:text-xl lg:text-2xl 2xl:text-3xl text-light-blue-custom font-semibold sm:mb-4">
+                <h2 className="sm:text-xl lg:text-2xl 2xl:text-3xl text-light-blue-custom sm:mb-4 font-bold">
                   {data['section-two'].title}
                 </h2>
                 <p className="text-gray-custom text-md 2xl:text-xl mb-4">

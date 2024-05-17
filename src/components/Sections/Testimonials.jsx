@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -77,7 +76,7 @@ const Testimonials = () => {
                         }}
                         className="text-gray-custom"
                       >
-                        "
+                        &quot;
                       </span>
                       <p className="text-left text-gray-custom text-[12px] mt-4">
                         {testimonial.paragraph}

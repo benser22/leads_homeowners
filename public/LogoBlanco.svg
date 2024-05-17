@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918.07 901.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d6d6d6;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <rect class="cls-1" x="453.62" y="-90.02" width="96.09" height="864.77" transform="translate(-10.67 668.55) rotate(-66.8)"/>
+      <rect class="cls-1" x="359.79" y="144.73" width="96.09" height="846.04" transform="translate(-276.57 710.11) rotate(-66.06)"/>
+      <rect class="cls-1" x="291.15" y="433.19" width="96.09" height="609.56" transform="translate(-472.65 761.8) rotate(-67)"/>
+      <rect class="cls-1" x="526.44" y="-150.13" width="96.09" height="614.82" transform="translate(220.43 636.25) rotate(-68.84)"/>
+      <polygon class="cls-2" points="865.53 317.53 83.33 216.94 96.09 121.61 878.29 222.2 865.53 317.53"/>
+      <polygon class="cls-2" points="905.31 565.26 0 439.89 13.51 344.56 918.07 469.92 905.31 565.26"/>
+      <polygon class="cls-2" points="797.97 790.46 39.79 662.09 56.3 567.51 814.48 695.87 797.97 790.46"/>
+      <polygon class="cls-2" points="600.54 900.81 334.8 894.8 638.82 812.23 600.54 900.81"/>
+      <polygon class="cls-2" points="270.24 90.08 304.77 0 582.52 6 270.24 90.08"/>
+    </g>
+  </g>
+</svg>

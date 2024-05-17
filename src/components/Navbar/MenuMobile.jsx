@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll';
 import data from '../../data.json';
+import PropTypes from 'prop-types';
 
 const MenuMobile = ({ isOpen, onClick }) => {
   return (
@@ -15,11 +16,16 @@ const MenuMobile = ({ isOpen, onClick }) => {
       >
         <div className="flex flex-col items-left justify-between gap-12 mt-6">
           <a href="/">
-            <img
-              src={data['logo-withtext'].url}
-              alt={data['logo-withtext'].alt}
-              className="h-[36px] cursor-pointer"
-            />
+            <div className="w-max gap-4 text-xl flex items-center font-bold">
+              <img
+                src={data.logo.url}
+                alt={data.logo.alt}
+                className="h-[36px] cursor-pointer"
+              />
+              <p className="text-blue-custom hover:text-light-blue-custom">
+                {data.logo.text}
+              </p>
+            </div>
             <hr className="mt-6"></hr>
           </a>
           {data['section-header'].navbar.map((item, index) => (
@@ -73,6 +79,11 @@ const MenuMobile = ({ isOpen, onClick }) => {
       </ul>
     </div>
   );
+};
+
+MenuMobile.propTypes = {
+  isOpen: PropTypes.bool,
+  onClick: PropTypes.func,
 };
 
 export default MenuMobile;

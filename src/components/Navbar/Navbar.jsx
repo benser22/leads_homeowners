@@ -12,18 +12,18 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full">
         <a href="/">
-          <img
-            src={data['logo-withtext'].url}
-            alt={data['logo-withtext'].alt}
-            className="sm:hidden xl:flex h-[32px] cursor-pointer"
-          ></img>
-          <img
-            src={data.logo.url}
-            alt={data.logo.alt}
-            className="hidden sm:flex md:hidden custom:flex xl:hidden w-[56px] h-[56px] cursor-pointer"
-          ></img>
+          <div className="w-max gap-4 text-xl flex items-center font-bold">
+            <img
+              src={data.logo.url}
+              alt={data.logo.alt}
+              className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] cursor-pointer"
+            />
+            <p className="text-blue-custom hover:text-light-blue-custom">
+              {data.logo.text}
+            </p>
+          </div>
         </a>
-        <div className="hidden sm:flex items-center justify-between sm:space-x-6 md:space-x-12 ">
+        <div className="hidden sm:flex items-center justify-between space-x-4 md:space-x-5 xl:space-x-10">
           {data['section-header'].navbar.map((item, index) => (
             <Link
               to={item.href}
@@ -31,7 +31,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               key={index}
-              offset={-80}
+              offset={-75}
               className="hover:text-light-blue-custom cursor-pointer"
             >
               <p

@@ -47,7 +47,7 @@
     "blog": {
       "id": 11,
       "text": "BLOG",
-      "href": "https://leadharbortech.blog.sistemasvirtuales.net/",
+      "href": "https://harborlead.blog.sistemasvirtuales.net",
       "icon": "bloggray.png",
       "alt": "icon image blog"
     },
@@ -60,9 +60,9 @@
     }
   },
   "section-one": {
-    "bg": "hero.png",
+    "bg": "hero.webp",
     "bg-alt": "background image",
-    "title": "Drive success, navigate the future - LeadHarbor Tech.",
+    "title": "Drive success, navigate the future - Harborlead",
     "form": {
       "title-form": "Get a Free Consultation",
       "full-name": "Full Name",
@@ -73,8 +73,8 @@
     }
   },
   "section-two": {
-    "title": "About us",
-    "paragraph": "At LeadHarbor Tech, we are pioneers in creating cutting-edge technological solutions for managing and capturing leads. Founded by a team of passionate technology and tourism experts, our mission is to drive growth and efficiency in the tourism industry through innovative and customized tools.",
+    "title": "Services",
+    "paragraph": "At Harborlead Tech, we are pioneers in creating cutting-edge technological solutions for managing and capturing leads. Founded by a team of passionate technology and tourism experts, our mission is to drive growth and efficiency in the tourism industry through innovative and customized tools.",
     "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713743104/leads_landing/bg/fzev3buo8svhxgl260st.png",
     "bg-alt": "background image",
     "img1": "about1.jpg",
@@ -91,19 +91,19 @@
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/zbw9m6bycsxqdfzee57l.png",
       "icon-alt": "icon image card1",
       "title": "Competitive advantages",
-      "paragraph": "At LeadHarbor Tech, we pride ourselves on offering the best solutions on the market for managing and capturing leads in the tourism sector. Our focus on innovation and customization allows us to provide our clients with cutting-edge technological tools that maximize their operational efficiency and business success."
+      "paragraph": "At Harborlead Tech, we pride ourselves on offering the best solutions on the market for managing and capturing leads in the tourism sector. Our focus on innovation and customization allows us to provide our clients with cutting-edge technological tools that maximize their operational efficiency and business success."
     },
     "Card2": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/u3vsxfushckcz7ag7x6r.png",
       "icon-alt": "icon image card2",
       "title": "Commitment to quality",
-      "paragraph": "Quality is fundamental to everything we do at LeadHarbor Tech. From initial design to implementation and ongoing support, we strive to ensure that every aspect of our technology solutions meets the highest standards of excellence. Our goal is to exceed our customers' expectations every step of the way."
+      "paragraph": "Quality is fundamental to everything we do at Harborlead Tech. From initial design to implementation and ongoing support, we strive to ensure that every aspect of our technology solutions meets the highest standards of excellence. Our goal is to exceed our customers' expectations every step of the way."
     },
     "Card3": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/xnw79s4p5mhhiyl7sdz2.png",
       "icon-alt": "icon image card3",
       "title": "Continuous innovation",
-      "paragraph": "In a constantly evolving world, innovation is key to staying relevant and competitive. So, at LeadHarbor Tech, we are dedicated to constant research and development, always looking for new ways to improve and expand our technological solutions to meet the changing needs of the tourism market."
+      "paragraph": "In a constantly evolving world, innovation is key to staying relevant and competitive. So, at Harborlead Tech, we are dedicated to constant research and development, always looking for new ways to improve and expand our technological solutions to meet the changing needs of the tourism market."
     }
   },
   "section-four": {
@@ -120,7 +120,7 @@
       "alt": "photo3 image"
     },
     "title": "About Us",
-    "paragraph": "Our mission at LeadHarbor Tech is to provide our clients in the tourism industry with the tools necessary to reach their full potential. We strive to design and develop cutting-edge technological solutions that optimize comprehensive lead management, allowing our clients to convert opportunities into tangible results.",
+    "paragraph": "Our mission at Harborlead is to provide our clients in the tourism industry with the tools necessary to reach their full potential. We strive to design and develop cutting-edge technological solutions that optimize comprehensive lead management, allowing our clients to convert opportunities into tangible results.",
     "button": "LEARN MORE"
   },
   "section-six": {
@@ -129,28 +129,28 @@
       {
         "id": "01",
         "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
-        "paragraph": "Since implementing LeadHarbor Tech's lead management system, we have experienced a significant increase in our direct bookings. The platform is very easy to use and has allowed us to segment and manage our leads much more efficiently. Thank you very much LeadHarbor for helping us boost our business!",
+        "paragraph": "Since implementing Harborlead Teach lead management system, we have experienced a significant increase in our direct bookings. The platform is very easy to use and has allowed us to segment and manage our leads much more efficiently. Thank you very much Harborlead for helping us boost our business!",
         "name": "Marina Azure",
         "rol": "Boutique Hotel"
       },
       {
         "id": "02",
         "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/bsjav39ghxqierhtocb0.png",
-        "paragraph": "We partnered with LeadHarbor Tech to improve our lead capture and couldn't be happier with the results. Their system has allowed us to personalize our marketing strategies and reach potential customers more effectively. We would recommend LeadHarbor Tech to any company! in the tourism industry!",
+        "paragraph": "We partnered with Harborlead to improve our lead capture and couldn't be happier with the results. Their system has allowed us to personalize our marketing strategies and reach potential customers more effectively. We would recommend Harborlead Tech to any company! in the tourism industry!",
         "name": "ExploraMundo",
         "rol": "Travel Agency"
       },
       {
         "id": "03",
         "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/f7hoqg2unckgllwv25p1.png",
-        "paragraph": "LeadHarbor Tech has completely transformed the way we manage our leads. Its intuitive platform and analytics tools have given us deeper insight into our customers' behavior, allowing us to tailor our offers and increase our conversions. Thank you LeadHarbor for being our ally in success!",
+        "paragraph": "Harborlead has completely transformed the way we manage our leads. Its intuitive platform and analytics tools have given us deeper insight into our customers' behavior, allowing us to tailor our offers and increase our conversions. Thank you Harborlead for being our ally in success!",
         "name": "Tour Operator",
         "rol": "Extreme Adventures"
       },
       {
         "id": "04",
         "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/muqfcnxioqhfx6tvsp27.png",
-        "paragraph": "As a tourism agency, we found LeadHarbor Tech's lead management solution exceptionally effective. It significantly boosted our competitiveness by optimizing marketing strategies and enhancing lead quality. We highly recommend it for any tourism company seeking to elevate their lead strategies.",
+        "paragraph": "As a tourism agency, we found Harborlead Tech lead management solution exceptionally effective. It significantly boosted our competitiveness by optimizing marketing strategies and enhancing lead quality. We highly recommend it for any tourism company seeking to elevate their lead strategies.",
         "name": "Digital Marketing Agency",
         "rol": "Creative Fusion"
       }
@@ -180,28 +180,32 @@
     "social-media-alt": "social media image"
   },
   "logo": {
-    "url": "LogoTextoAbajo.svg",
-    "alt": "logo image"
+    "url": "Logo.svg",
+    "alt": "logo image",
+    "text": "HarborLead"
   },
   "logo-white": {
-    "url": "LogoTextoBlanco.svg",
-    "alt": "logo image"
+    "url": "LogoBlanco.svg",
+    "alt": "logo image",
+    "text": "HarborLead"
   },
-  "logo-withtext": {
-    "url": "LogoTextoLateral.svg",
-    "alt": "logo with text"
+  "logo-black": {
+    "url": "LogoNegro.svg",
+    "alt": "logo with text",
+    "text": "HarborLead"
   },
   "bolg": {
     "icon": "blog.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://leadharbortech.blog.sistemasvirtuales.net/"
+    "url": "https://harborlead.blog.sistemasvirtuales.net/"
   },
+  "contact": "harborlead@gmail.com",
   "project": {
-    "title": "PROJECT: LeadHarbor Tech",
+    "title": "PROJECT: Harborlead",
     "subtititle1": "Management and Lead Capture System",
     "subtititle2": "(Technological Solution for Comprehensive Tourism Management)",
-    "paragraph": "At LeadHarbor Tech, we stand out for our unique combination of technology experience and deep knowledge of the tourism sector. Our solutions are custom designed for the specific needs of each client, offering an unparalleled competitive advantage in a constantly evolving market.",
+    "paragraph": "At Harborlead, we stand out for our unique combination of technology experience and deep knowledge of the tourism sector. Our solutions are custom designed for the specific needs of each client, offering an unparalleled competitive advantage in a constantly evolving market.",
     "image": "projects.webp",
     "bg": "BGprojects.jpg",
     "photos": [
