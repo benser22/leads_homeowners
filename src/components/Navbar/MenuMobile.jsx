@@ -46,15 +46,9 @@ const MenuMobile = ({ isOpen, onClick }) => {
               <p className="font-bold">{item.text}</p>
             </Link>
           ))}
-
-          <Link
-            to={data['section-header'].button.href}
-            key={data['section-header'].button.id}
+          <a
+            href={`mailto:${data.contact}?subject=Contact Form`}
             className="flex items-center gap-4 hover:text-light-blue-custom cursor-pointer"
-            smooth={true}
-            duration={700}
-            spy={false}
-            offset={-80}
           >
             <img
               src={data['section-header'].button.icon}
@@ -62,7 +56,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
               className="w-[26px] h-[26px]"
             />
             <p className="font-bold">{data['section-header'].button.text}</p>
-          </Link>
+          </a>
           <a
             href={data['section-header'].blog.href}
             target="_blank"

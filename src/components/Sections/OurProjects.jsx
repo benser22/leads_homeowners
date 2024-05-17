@@ -1,34 +1,7 @@
-import { useState, useEffect, useCallback } from 'react';
 import Layout from '../ui/Layout';
 import data from '../../data.json';
-import PropTypes from 'prop-types';
 
 function OurProjects() {
-  const [currentImageIndices, setCurrentImageIndices] = useState([0, 0]);
-
-  const imageUrlsCard1 = [...data.project.photos[0].urls];
-
-  const changeImage = useCallback(
-    (index) => {
-      setCurrentImageIndices((prevIndices) => {
-        const newIndices = [...prevIndices];
-        newIndices[index] = (newIndices[index] + 1) % imageUrlsCard1.length;
-        return newIndices;
-      });
-    },
-    [imageUrlsCard1.length]
-  );
-
-  useEffect(() => {
-    const timers = currentImageIndices.map((_, index) =>
-      setInterval(() => changeImage(index), 5000)
-    );
-
-    return () => {
-      timers.forEach((timer) => clearInterval(timer));
-    };
-  }, [currentImageIndices, changeImage]);
-
   return (
     <div>
       <section id="projects">
@@ -73,10 +46,5 @@ function OurProjects() {
     </div>
   );
 }
-
-OurProjects.propTypes = {
-  changeImage: PropTypes.func,
-  currentImageIndices: PropTypes.arrayOf(PropTypes.number),
-};
 
 export default OurProjects;
