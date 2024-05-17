@@ -20,7 +20,11 @@ function Hero() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { fullName, email, phoneNumber, city } = formData;
-    const mailtoLink = `mailto:${data.contact}?subject=Formulario de contacto&body=Nombre: ${fullName}%0DEmail: ${email}%0DTeléfono: ${phoneNumber}%0DCiudad: ${city}`;
+    const mailtoLink = `mailto:${data.contact}?subject=${encodeURIComponent(
+      'Formulario de contacto'
+    )}&body=${encodeURIComponent(
+      `Nombre: ${fullName}\nEmail: ${email}\nTeléfono: ${phoneNumber}\nCiudad: ${city}`
+    )}`;
     window.location.href = mailtoLink;
 
     setFormData({
@@ -56,38 +60,62 @@ function Hero() {
             <h2 className="text-2xl font-base mb-4 text-center text-white">
               {data['section-one'].form['title-form']}
             </h2>
-            <input
-              type="text"
-              className="input-custom"
-              name="fullName"
-              value={formData.fullName}
-              onChange={handleChange}
-              placeholder={data['section-one'].form['full-name']}
-            />
-            <input
-              type="email"
-              className="input-custom"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder={data['section-one'].form.email}
-            />
-            <input
-              type="tel"
-              className="input-custom"
-              name="phoneNumber"
-              value={formData.phoneNumber}
-              onChange={handleChange}
-              placeholder={data['section-one'].form.number}
-            />
-            <input
-              type="text"
-              className="input-custom"
-              name="city"
-              value={formData.city}
-              onChange={handleChange}
-              placeholder={data['section-one'].form.city}
-            />
+            <div className="mb-4">
+              <label htmlFor="fullName" className="sr-only">
+                {data['section-one'].form['full-name']}
+              </label>
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                className="input-custom"
+                value={formData.fullName}
+                onChange={handleChange}
+                placeholder={data['section-one'].form['full-name']}
+              />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="email" className="sr-only">
+                {data['section-one'].form.email}
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className="input-custom"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder={data['section-one'].form.email}
+              />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="phoneNumber" className="sr-only">
+                {data['section-one'].form.number}
+              </label>
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                className="input-custom"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                placeholder={data['section-one'].form.number}
+              />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="city" className="sr-only">
+                {data['section-one'].form.city}
+              </label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                className="input-custom"
+                value={formData.city}
+                onChange={handleChange}
+                placeholder={data['section-one'].form.city}
+              />
+            </div>
             <div className="w-full flex justify-center">
               <button type="submit" className="orange-button">
                 {data['section-one'].form.button}
