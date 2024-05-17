@@ -20,11 +20,7 @@ function Hero() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { fullName, email, phoneNumber, city } = formData;
-    const mailtoLink = `mailto:${data.contact}?subject=${encodeURIComponent(
-      'Formulario de contacto'
-    )}&body=${encodeURIComponent(
-      `Nombre: ${fullName}\nEmail: ${email}\nTeléfono: ${phoneNumber}\nCiudad: ${city}`
-    )}`;
+    const mailtoLink = `mailto:${data.contact}?subject=Contact Form&body=Name: ${fullName}%0DEmail: ${email}%0DPhone: ${phoneNumber}%0DCity: ${city}`;
     window.location.href = mailtoLink;
 
     setFormData({
