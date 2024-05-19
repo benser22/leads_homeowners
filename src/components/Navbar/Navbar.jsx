@@ -11,8 +11,8 @@ const Navbar = () => {
       className={`fixed z-[98] top-0 left-0 w-full px-8 py-2 flex justify-between items-center h-[78px] text-blue-custom bg-white shadow-sm`}
     >
       <div className="flex items-center justify-between w-full">
-        <a href="/">
-          <div className="w-max gap-4 text-xl flex items-center font-bold">
+        <a href="/" className="px-4">
+          <div className="w-max gap-2 text-xl flex items-center font-bold">
             <img
               src={data.logo.url}
               alt={data.logo.alt}
@@ -23,7 +23,7 @@ const Navbar = () => {
             </p>
           </div>
         </a>
-        <div className="hidden sm:flex items-center justify-between space-x-4 md:space-x-5 xl:space-x-10">
+        <div className="w-full xl:w-2/3 hidden sm:flex items-center justify-between px-4 gap-2 xl:gap-4">
           {data['section-header'].navbar.map((item, index) => (
             <Link
               to={item.href}
@@ -51,9 +51,23 @@ const Navbar = () => {
           </a>
           <a
             href={`mailto:${data.contact}?subject=Contact Form`}
-            className="text-md sm:text-[12px] lg:text-[16px] w-max hidden md:flex lg:bg-[#f46d21] lg:text-white lg:py-[0.375rem] lg:px-[2.25rem] lg:rounded-md cursor-pointer"
+            className="hidden md:block text-md sm:text-[12px] lg:text-[16px]"
           >
-            {data['section-header'].button.text}
+            <div className="w-full flex justify-center">
+              <button type="submit" className="orange-button">
+                {data['section-header'].button.text}
+              </button>
+            </div>
+          </a>
+          <a
+            href={`mailto:${data.contact}?subject=Contact Form`}
+            className="md:hidden text-md sm:text-[12px]"
+          >
+            <div className="w-full flex justify-center">
+              <button type="submit">
+                {data['section-header'].button.text}
+              </button>
+            </div>
           </a>
         </div>
       </div>
