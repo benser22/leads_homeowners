@@ -44,16 +44,9 @@ const Testimonials = () => {
   };
 
   return (
-    <Layout>
-      <section id="testimonials">
-        <div
-          className="px-4 pt-8 pb-8"
-          style={{
-            backgroundImage: `url(${data['section-two'].bg})`,
-            backgroundSize: 'cover',
-            width: '100%',
-          }}
-        >
+    <section id="testimonials">
+      <div className="px-4 pt-8 pb-8">
+        <Layout>
           <div className="flex flex-col text-center w-[98%]">
             <div className="flex flex-col w-full text-xl lg:text-2xl 2xl:text-3xl font-bold mb-14">
               <p className="text-light-blue-custom mx-auto">{title}</p>
@@ -94,9 +87,9 @@ const Testimonials = () => {
               ))}
             </Slider>
           </div>
-        </div>
-      </section>
-    </Layout>
+        </Layout>
+      </div>
+    </section>
   );
 };
 

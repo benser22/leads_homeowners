@@ -5,7 +5,7 @@ import OneSection from './components/Sections/OneSection';
 import AboutSection from './components/Sections/AboutSection';
 import OurProjects from './components/Sections/OurProjects';
 import Testimonials from './components/Sections/Testimonials';
-
+import data from './data.json';
 const LazyHero = lazy(() => import('./components/Hero/Hero'));
 const LazyFooter = lazy(() => import('./Footer/Footer'));
 const LazyLastSection = lazy(() => import('./components/Sections/LastSection'));
@@ -19,8 +19,16 @@ function App() {
       </Suspense>
       <OneSection />
       <AboutSection />
-      <Testimonials />
-      <OurProjects />
+      <div
+        style={{
+          backgroundImage: `url(${data['section-two'].bg})`,
+          backgroundSize: 'cover',
+          width: '100%',
+        }}
+      >
+        <Testimonials />
+        <OurProjects />
+      </div>
       <Suspense fallback={<LoadingSpinner />}>
         <LazyLastSection />
       </Suspense>
