@@ -75,7 +75,7 @@
   "section-two": {
     "title": "Services",
     "paragraph": "At Harborlead Tech, we are pioneers in creating cutting-edge technological solutions for managing and capturing leads. Founded by a team of passionate technology and tourism experts, our mission is to drive growth and efficiency in the tourism industry through innovative and customized tools.",
-    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713743104/leads_landing/bg/fzev3buo8svhxgl260st.png",
+    "bg": "summer.png",
     "bg-alt": "background image",
     "img1": "about1.jpg",
     "alt1": "about image1",
@@ -85,13 +85,13 @@
     "alt3": "about image3"
   },
   "section-three": {
-    "bg": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713744189/leads_landing/bg/xijthcbdmun7ekcycprj.png",
+    "bg": "summer.png",
     "title": "Why Choose Us?",
     "Card1": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/zbw9m6bycsxqdfzee57l.png",
       "icon-alt": "icon image card1",
       "title": "Competitive advantages",
-      "paragraph": "At Harborlead Tech, we pride ourselves on offering the best solutions on the market for managing and capturing leads in the tourism sector. Our focus on innovation and customization allows us to provide our clients with cutting-edge technological tools that maximize their operational efficiency and business success."
+      "paragraph": "We pride ourselves on offering the best solutions on the market for managing and capturing leads in the tourism sector. Our focus on innovation and customization allows us to provide our clients with cutting-edge technological tools that maximize their operational efficiency and business success."
     },
     "Card2": {
       "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713587268/leads_landing/iconos/u3vsxfushckcz7ag7x6r.png",
@@ -129,7 +129,7 @@
       {
         "id": "01",
         "photo": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1713720395/testimonials/sm3vhi9ndhn5id0wz3am.png",
-        "paragraph": "Since implementing Harborlead Teach lead management system, we have experienced a significant increase in our direct bookings. The platform is very easy to use and has allowed us to segment and manage our leads much more efficiently. Thank you very much Harborlead for helping us boost our business!",
+        "paragraph": "Since implementing the Harborlead Teach lead management system, we have experienced an increase in our direct bookings. The platform is very easy to use and has allowed us to segment and manage our leads much more efficiently. Thank you so much Harborlead for helping us boost our business!",
         "name": "Marina Azure",
         "rol": "Boutique Hotel"
       },

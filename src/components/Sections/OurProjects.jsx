@@ -14,11 +14,9 @@ function OurProjects() {
               <hr className="bg-light-blue-custom mt-2 h-2 lg:h-3 w-28 mx-auto rounded-xl mb-4"></hr>
 
               <div
-                className="flex flex-col sm:flex-row text-center items-center justify-center p-8 rounded-xl mx-auto sm:w-4/5"
+                className="flex flex-col bg-white sm:flex-row text-center items-center justify-center p-8 rounded-xl mx-auto sm:w-4/5"
                 style={{
                   boxShadow: '0px 0px 4px rgba(0,0,0,0.5)',
-                  backgroundImage: `url(${data.project.bg})`,
-                  backgroundSize: 'cover',
                   width: '80%',
                 }}
               >
@@ -34,7 +32,7 @@ function OurProjects() {
                   <p className="text-orange-custom text-[14px] mx-auto font-semibold">
                     {data.project.subtititle2}
                   </p>
-                  <p className="text-blue-custom text-base mt-4 text-center mx-auto px-4 w-5/6 font-semibold">
+                  <p className="text-blue-custom text-base mt-4 text-center mx-auto px-4 w-5/6 font-bold">
                     {data.project.paragraph}
                   </p>
                 </div>

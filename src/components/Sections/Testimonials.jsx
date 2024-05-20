@@ -54,7 +54,10 @@ const Testimonials = () => {
             </div>
             <Slider {...settings} className="px-6 w-[95%] mx-auto">
               {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="space-y-2 min-h-[24rem]">
+                <div
+                  key={testimonial.id}
+                  className="space-y-2 h-[24rem] max-h-[300px]"
+                >
                   <img
                     src={testimonial.photo}
                     alt={testimonial.name}

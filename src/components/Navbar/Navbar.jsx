@@ -8,7 +8,7 @@ const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
   return (
     <header
-      className={`fixed z-[98] top-0 left-0 w-full px-8 py-2 flex justify-between items-center h-[78px] text-blue-custom bg-white shadow-sm`}
+      className={`fixed z-[98] top-0 left-0 w-full px-8 py-2 flex justify-between items-center h-[86px] text-blue-custom bg-white shadow-sm`}
     >
       <div className="flex items-center justify-between w-full">
         <a href="/" className="px-4">
@@ -31,7 +31,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               key={index}
-              offset={-75}
+              offset={-85}
               className="hover:text-light-blue-custom cursor-pointer"
             >
               <p
