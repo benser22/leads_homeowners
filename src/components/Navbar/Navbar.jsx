@@ -16,7 +16,7 @@ const Navbar = () => {
             <img
               src={data.logo.url}
               alt={data.logo.alt}
-              className="w-[128px] sm:hidden lg:block sm:w-[172px] cursor-pointer hover:animate-rotate-x hover:animate-duration-[1000ms] hover:animate-ease-linear"
+              className="w-[128px] sm:hidden lg:block sm:w-[140px] cursor-pointer hover:animate-rotate-x hover:animate-duration-[1000ms] hover:animate-ease-linear"
             />
             <img
               src={data['logo-color'].url}
