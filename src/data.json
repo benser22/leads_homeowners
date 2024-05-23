@@ -180,19 +180,16 @@
     "social-media-alt": "social media image"
   },
   "logo": {
-    "url": "Logo.svg",
-    "alt": "logo image",
-    "text": "HarborLead"
+    "url": "/logos/6.png",
+    "alt": "logo image"
   },
   "logo-white": {
-    "url": "LogoBlanco.svg",
-    "alt": "logo image",
-    "text": "HarborLead"
+    "url": "/logos/4.png",
+    "alt": "logo image"
   },
-  "logo-black": {
-    "url": "LogoNegro.svg",
-    "alt": "logo with text",
-    "text": "HarborLead"
+  "logo-color": {
+    "url": "/logos/2.png",
+    "alt": "logo image"
   },
   "bolg": {
     "icon": "blog.png",
@@ -202,7 +199,7 @@
   },
   "contact": "harborlead@gmail.com",
   "project": {
-    "title": "PROJECT: Harborlead",
+    "title": "Harborlead",
     "subtititle1": "Management and Lead Capture System",
     "subtititle2": "(Technological Solution for Comprehensive Tourism Management)",
     "paragraph": "At Harborlead, we stand out for our unique combination of technology experience and deep knowledge of the tourism sector. Our solutions are custom designed for the specific needs of each client, offering an unparalleled competitive advantage in a constantly evolving market.",

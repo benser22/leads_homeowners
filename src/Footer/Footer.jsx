@@ -10,23 +10,15 @@ function Footer() {
             <p className="text-xs">{data['section-footer'].copy}</p>
           </div>
           <a href="#">
-            <div className="w-max gap-4 text-xl flex items-center font-bold">
-              <img
-                src={data.logo.url}
-                alt={data.logo.alt}
-                className="w-[24px] h-[24px] sm:w-[36px] sm:h-[36px] cursor-pointer"
-              />
-              <p className="text-white hover:text-light-blue-custom">
-                {data.logo.text}
-              </p>
-            </div>
+            <img
+              src={data['logo-white'].url}
+              alt={data['logo-white'].alt}
+              className="cursor-pointer hover:animate-rotate-x hover:animate-duration-[1000ms] hover:animate-ease-linear w-40"
+            />
           </a>
           <div className="flex items-center">
             <a href={data.bolg.url} target="_blank" className="ml-auto">
-              <div
-                title={data.bolg.text}
-                className="text-center hover:text-light-blue-custom cursor-pointer flex items-center gap-1 justify-center w-full"
-              >
+              <div className="text-center hover:animate-rotate-x hover:animate-duration-[1000ms] hover:animate-ease-linear cursor-pointer flex items-center gap-1 justify-center w-full">
                 <img
                   width={32}
                   height={32}

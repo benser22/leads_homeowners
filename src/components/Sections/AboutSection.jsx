@@ -14,19 +14,19 @@ function AboutSection() {
         <div className="pt-12 sm:mt-0 px-4 pb-20">
           <div className="grid mt-16 grid-cols-1 sm:grid-cols-3 items-center h-[350px] py-8 gap-3">
             <img
-              className="hidden sm:block ml-auto mb-auto rounded-sm shadow-md"
+              className="hidden sm:block ml-auto mb-auto rounded-sm shadow-md hover:animate-once hover:animate-rotate-y hover:animate-duration-[2000ms]"
               width={190}
               src={data['section-four'].photo1.url}
               alt={data['section-four'].photo1.alt}
             />
             <img
-              className="mx-auto mt-auto rounded-sm shadow-md"
+              className="mx-auto mt-auto rounded-sm shadow-md hover:animate-rotate-y hover:animate-duration-[2000ms]"
               width={300}
               src={data['section-four'].photo2.url}
               alt={data['section-four'].photo2.alt}
             />
             <img
-              className="hidden sm:block mr-auto mt-auto mb-3 rounded-sm shadow-md"
+              className="hidden sm:block mr-auto mt-auto mb-3 rounded-sm shadow-md hover:animate-rotate-y hover:animate-duration-[2000ms]"
               width={200}
               src={data['section-four'].photo3.url}
               alt={data['section-four'].photo3.alt}

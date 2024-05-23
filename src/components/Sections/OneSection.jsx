@@ -12,37 +12,41 @@ function OneSection() {
         }}
       >
         <Layout>
-          <div className="grid grid-cols-3 h-[110vw] sm:h-[120vw] mb-[12rem] sm:mb-[0rem] md:mb-[10rem] md:h-[30vw] md:max-h-[50vw]">
-            <section id="services">
-              <div className="flex flex-col justify-start md:h-full w-[80%] col-span-3 md:col-span-1 mx-auto mt-[8vw] md:mt-[8vw] lg:mt-[12vw] md:mx-0 md:ml-36 lg:ml-24 2xl:ml-12">
-                <h2 className="sm:text-xl lg:text-2xl 2xl:text-3xl text-light-blue-custom sm:mb-4 font-bold">
-                  {data['section-two'].title}
-                </h2>
-                <p className="text-gray-custom text-md 2xl:text-xl mb-4 font-semibold">
-                  {data['section-two'].paragraph}
-                </p>
+          <div className="py-12 flex flex-col md:flex-row space-y-0 items-center justify-center my-auto w-full">
+            <div className="flex flex-col items-center justify-center mx-auto p-8 md:w-2/3">
+              <h2 className="w-full sm:py-4 text-xl text-center md:text-end lg:text-3xl 2xl:text-4xl text-light-blue-custom font-bold">
+                {data['section-two'].title}
+              </h2>
+              <p className="text-gray-custom text-md 2xl:text-xl font-semibold text-center md:text-end">
+                {data['section-two'].paragraph}
+              </p>
+            </div>
+            <section
+              id="services"
+              className="mb-12 w-full justify-center items-center mt-10 px-4"
+            >
+              <div className="flex justify-center items-center grid-cols-3">
+                <img
+                  src={data['section-two'].img1}
+                  alt={data['section-two'].alt1}
+                  className="h-[50vw] sm:h-[30vw] max-h-[400px] xl:max-h-[500px] rounded-full hover:animate-once hover:animate-spin"
+                />
+                <div className="flex flex-col gap-2">
+                  <img
+                    src={data['section-two'].img2}
+                    alt={data['section-two'].alt2}
+                    className="h-[30vw] sm:h-[20vw] max-h-[300px] rounded-full hover:animate-once hover:animate-reverse hover:animate-spin"
+                  />
+                  <img
+                    src={data['section-two'].img3}
+                    alt={data['section-two'].alt3}
+                    className="h-[30vw] sm:h-[20vw] max-h-[300px] rounded-full hover:animate-once hover:animate-reverse  hover:animate-spin"
+                  />
+                </div>
               </div>
             </section>
-            <div className="md:w-1/2 flex justify-center h-full col-span-3 md:col-span-2 md:pt-32 md:absolute mt-10 sm:-mt-20 md:mt-0 md:right-0 md:pr-12 xl:mr-32">
-              <img
-                src={data['section-two'].img1}
-                alt={data['section-two'].alt1}
-                className="h-[40vw] md:h-[22vw] rounded-full"
-              />
-              <div className="flex flex-col -mt-8 sm:-mt-16 md:-mt-6 gap-2">
-                <img
-                  src={data['section-two'].img2}
-                  alt={data['section-two'].alt2}
-                  className="h-[28vw] md:h-[13vw] rounded-full"
-                />
-                <img
-                  src={data['section-two'].img3}
-                  alt={data['section-two'].alt3}
-                  className="h-[28vw] md:h-[13vw] rounded-full"
-                />
-              </div>
-            </div>
           </div>
+
           <Layout>
             <div className="flex flex-col justify-center text-center">
               <div className="lg:w-1/5 justify-center mx-auto text-xl lg:text-2xl 2xl:text-3xl font-bold mb-8">

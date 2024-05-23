@@ -12,19 +12,16 @@ const MenuMobile = ({ isOpen, onClick }) => {
       style={{ background: 'rgba(0,0,0,0.3)' }}
     >
       <ul
-        className={`fixed left-0 top-0 px-4 py-5 h-screen w-[250px] flex flex-col gap-4 items-start text-blue-custom bg-white shadow-md shadow-black/10`}
+        className={`fixed left-0 top-0 px-4 py-5 h-screen w-max min-w-[250px] flex flex-col gap-4 items-start text-blue-custom bg-white shadow-md shadow-black/10`}
       >
         <div className="flex flex-col items-left justify-between gap-12 mt-6">
           <a href="/">
-            <div className="w-max gap-4 text-xl flex items-center font-bold">
+            <div className="w-full gap-4 text-xl flex items-center justify-center font-bold active:animate-rotate-x animate-delay-[2000ms]">
               <img
                 src={data.logo.url}
                 alt={data.logo.alt}
-                className="h-[36px] cursor-pointer"
+                className="h-[48px] cursor-pointer"
               />
-              <p className="text-blue-custom hover:text-light-blue-custom">
-                {data.logo.text}
-              </p>
             </div>
             <hr className="mt-6"></hr>
           </a>
@@ -47,7 +44,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
             </Link>
           ))}
           <a
-            href={`mailto:${data.contact}?subject=Contact Form`}
+            href={`mailto:${data.contact}?subject=Contact`}
             className="flex items-center gap-4 hover:text-light-blue-custom cursor-pointer"
           >
             <img

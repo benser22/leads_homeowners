@@ -29,7 +29,8 @@ function LastSection() {
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:lead_harbor@gmail.com?subject=Suscribe&body=Contact: ${email}`;
+      window.location.href = `mailto:${data.contact}?subject=Contact&body=Email contact: ${email}`;
+      setEmail('');
     } else {
       alert(emailError || data['section-seven'].suscribe.error);
     }

@@ -23,7 +23,7 @@ function OurProjects() {
                 <img
                   src={data.project.image}
                   alt="Image Projects"
-                  className="h-60 w-60 object-cover rounded-full shadow-2xl border-2 border-slate-500"
+                  className="h-60 w-60 object-cover rounded-full shadow-2xl border-2 border-slate-500 hover:animate-once hover:animate-spin animate-delay-[2000ms]"
                 />
                 <div className="flex flex-col justify-center items-center">
                   <p className="text-orange-custom text-md mx-auto font-bold">
